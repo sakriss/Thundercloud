@@ -22,3 +22,11 @@ extension WeatherData: JSONDecodable {
         self.hourData = try decoder.decode(key: "hourly.data")
     }
 }
+
+//extension Date {
+//    init?(time: Double?) {
+//        guard let t = time else { return nil }
+//        self.init(timeIntervalSince1970: t)
+//    }
+//}
+
