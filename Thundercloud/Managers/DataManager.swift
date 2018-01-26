@@ -61,9 +61,11 @@ final class DataManager {
             let decoder = try JSONDecoder(data: data)
             
             if let weatherData = try? WeatherData(decoder: decoder) as AnyObject {
+                print("before completion, but something is nil")
                 completion(weatherData, nil)
                 print(weatherData)
             } else {
+                print("WeatherData is nil")
                 completion(nil, .InvalidResponse)
             }
         
