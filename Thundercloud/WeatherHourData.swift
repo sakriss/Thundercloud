@@ -37,37 +37,37 @@ public struct WeatherHourData {
     public init(time: Date? = nil, summary: String?, icon: String?, sunriseTime: Date?, sunsetTime: Date?, moonPhase: Double?, nearestStormDistance: Double?, nearestStormBearing: Double?, precipIntensity: Double?, precipIntensityMax: Double?, precipIntensityMaxTime: Date?, precipProbability: Double?, precipType: String?, precipAccumulation: Double?, temperature: Double?, temperatureMin: Double?, temperatureMinTime: Date?, temperatureMax: Double?, temperatureMaxTime: Date?, apparentTemperature: Double?, apparentTemperatureMin: Double?, apparentTemperatureMinTime: Date?, apparentTemperatureMax: Double?, apparentTemperatureMaxTime: Date?, dewPoint: Double?, windSpeed: Double?, windBearing: Double?, cloudCover: Double?, humidity: Double?, pressure: Double?, visibility: Double?, ozone: Double?) {
 
         self.time = time ?? nil
-        self.summary = summary
-        self.icon = icon
-        self.sunriseTime = sunriseTime
-        self.sunsetTime = sunsetTime
+        self.summary = summary ?? nil
+        self.icon = icon ?? nil
+        self.sunriseTime = sunriseTime ?? nil
+        self.sunsetTime = sunsetTime ?? nil
         self.moonPhase = moonPhase ?? nil
-        self.nearestStormDistance = nearestStormDistance
-        self.nearestStormBearing = nearestStormBearing
-        self.precipIntensity = precipIntensity
-        self.precipIntensityMax = precipIntensityMax
-        self.precipIntensityMaxTime = precipIntensityMaxTime
-        self.precipProbability = precipProbability
-        self.precipType = precipType
-        self.precipAccumulation = precipAccumulation
-        self.temperature = temperature
-        self.temperatureMin = temperatureMin
-        self.temperatureMinTime = temperatureMinTime
-        self.temperatureMax = temperatureMax
-        self.temperatureMaxTime = temperatureMaxTime
-        self.apparentTemperature = apparentTemperature
-        self.apparentTemperatureMin = apparentTemperatureMin
-        self.apparentTemperatureMinTime = apparentTemperatureMinTime
-        self.apparentTemperatureMax = apparentTemperatureMax
-        self.apparentTemperatureMaxTime = apparentTemperatureMaxTime
-        self.dewPoint = dewPoint
-        self.windSpeed = windSpeed
-        self.windBearing = windBearing
-        self.cloudCover = cloudCover
-        self.humidity = humidity
-        self.pressure = pressure
-        self.visibility = visibility
-        self.ozone = ozone
+        self.nearestStormDistance = nearestStormDistance ?? nil
+        self.nearestStormBearing = nearestStormBearing ?? nil
+        self.precipIntensity = precipIntensity ?? nil
+        self.precipIntensityMax = precipIntensityMax ?? nil
+        self.precipIntensityMaxTime = precipIntensityMaxTime ?? nil
+        self.precipProbability = precipProbability ?? nil
+        self.precipType = precipType ?? nil
+        self.precipAccumulation = precipAccumulation ?? nil
+        self.temperature = temperature ?? nil
+        self.temperatureMin = temperatureMin ?? nil
+        self.temperatureMinTime = temperatureMinTime ?? nil
+        self.temperatureMax = temperatureMax ?? nil
+        self.temperatureMaxTime = temperatureMaxTime ?? nil
+        self.apparentTemperature = apparentTemperature ?? nil
+        self.apparentTemperatureMin = apparentTemperatureMin ?? nil
+        self.apparentTemperatureMinTime = apparentTemperatureMinTime ?? nil
+        self.apparentTemperatureMax = apparentTemperatureMax ?? nil
+        self.apparentTemperatureMaxTime = apparentTemperatureMaxTime ?? nil
+        self.dewPoint = dewPoint ?? nil
+        self.windSpeed = windSpeed ?? nil
+        self.windBearing = windBearing ?? nil
+        self.cloudCover = cloudCover ?? nil
+        self.humidity = humidity ?? nil
+        self.pressure = pressure ?? nil
+        self.visibility = visibility ?? nil
+        self.ozone = ozone ?? nil
         }
 }
 
@@ -78,8 +78,8 @@ extension WeatherHourData: JSONDecodable {
             self.time = Date(timeIntervalSince1970: time)
         }
         
-        self.summary = try decoder.decode(key: "summary")
-        self.icon = try decoder.decode(key: "icon")
+        self.summary = (try? decoder.decode(key: "summary")) ?? ""
+        self.icon = (try? decoder.decode(key: "icon")) ?? ""
         
         if let sunriseTime: Double = try? decoder.decode(key: "sunriseTime") {
             self.sunriseTime = Date(timeIntervalSince1970: sunriseTime)

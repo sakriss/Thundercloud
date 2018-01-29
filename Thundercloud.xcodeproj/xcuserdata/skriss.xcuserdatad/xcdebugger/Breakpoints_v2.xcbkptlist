@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/JSONDecodable.swift"
-            timestampString = "538699796.715265"
+            timestampString = "538941779.2472889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/Managers/DataManager.swift"
-            timestampString = "538697619.434332"
+            timestampString = "538941779.24764"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -74,23 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/Managers/DataManager.swift"
-            timestampString = "538697619.434572"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "weatherDataForLocation(latitude:longitude:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Thundercloud/Managers/DataManager.swift"
-            timestampString = "538697619.434628"
+            timestampString = "538941779.247884"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -106,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/WeatherHourData.swift"
-            timestampString = "538699888.850168"
+            timestampString = "538941779.24795"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -121,24 +105,8 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Thundercloud/WeatherData.swift"
-            timestampString = "538700094.712612"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "init(decoder:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Thundercloud/JSONDecodable.swift"
-            timestampString = "538699796.715643"
+            timestampString = "538941779.248194"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -153,12 +121,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Thundercloud/WeatherData.swift"
-            timestampString = "538700094.713179"
+            filePath = "Thundercloud/WeatherHourData.swift"
+            timestampString = "538941779.248273"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "init(decoder:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -166,17 +134,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Thundercloud/WeatherHourData.swift"
-            timestampString = "538699888.851333"
+            filePath = "Thundercloud/WeatherData.swift"
+            timestampString = "538941779.248336"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "init(decoder:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
+                  timestampString = "538941779.254724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1475">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #4 : @autoclosure () throws -&gt; Swift.Array&lt;Thundercloud.WeatherHourData&gt; in Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
+                  timestampString = "538941779.2571909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

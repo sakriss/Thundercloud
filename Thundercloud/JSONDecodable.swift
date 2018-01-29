@@ -14,10 +14,10 @@ public enum JSONDecoderError: Error {
 
 public struct JSONDecoder {
     
-    typealias JSON = [String: AnyObject]
+    public typealias JSON = [String: AnyObject]
     
     // MARK: - Properties
-    private let JSONData: JSON
+    public let JSONData: JSON
     
     // MARK: - Static Methods
     public static func decode<T: JSONDecodable>(data: Data) throws -> T {
