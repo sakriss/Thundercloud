@@ -26,6 +26,12 @@ class NowViewController: UIViewController {
         setupView()
     }
     
+    public func nowForcast(latitude lat: Double, longitude lon: Double, result: WeatherData ){
+        
+        print("Data should be here:")
+        
+    }
+    
     // MARK: - View Methods
     private func setupView() {
         

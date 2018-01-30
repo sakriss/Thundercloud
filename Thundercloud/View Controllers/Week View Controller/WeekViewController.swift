@@ -10,6 +10,9 @@ import UIKit
 
 class WeekViewController: UIViewController {
 
+    
+    private let dailyDataManager = DailyDataManager(baseURL: API.AuthenticatedBaseURL)
+    
     // MARK: - View Life Cycle
     
     override func viewDidLoad() {
@@ -24,6 +27,13 @@ class WeekViewController: UIViewController {
         self.view.addSubview(label)
         
         setupView()
+        
+        // Fetch Weather Data
+        dailyDataManager.DailyweatherDataForLocation(latitude: Defaults.Latitude, longitude: Defaults.Longitude) { (response, error) in
+            print("===========printing respons===========")
+            print(response!)
+        }
+        //label.text = DailyData.init(decoder: )
     }
     
     // MARK: - View Methods

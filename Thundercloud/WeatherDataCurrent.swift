@@ -6,20 +6,20 @@ public struct WeatherData {
     public let long: Double
     
     public let hourData: [WeatherHourData]
-//    public let currentData: [WeatherHourData]
-//    public let minuteData: [WeatherHourData]
-//    public let dailyData: [WeatherHourData]
-//    public let alertData: [ForcastAlert]
+    public let currentData: [WeatherHourData]
+    public let minuteData: [WeatherHourData]
+    public let dailyData: [WeatherHourData]
+    public let alertData: [ForcastAlert]
     
     public init(lat: Double, long: Double, hourData: [WeatherHourData], currentData: [WeatherHourData], minuteData: [WeatherHourData], dailyData: [WeatherHourData], alertData: [ForcastAlert]) {
 
         self.lat = lat
         self.long = long
         self.hourData = hourData
-//        self.currentData = currentData
-//        self.minuteData = minuteData
-//        self.dailyData = dailyData
-//        self.alertData = alertData
+        self.currentData = currentData
+        self.minuteData = minuteData
+        self.dailyData = dailyData
+        self.alertData = alertData
     }
 
 }
@@ -34,10 +34,10 @@ extension WeatherData: JSONDecodable {
         self.lat = try decoder.decode(key: "latitude")
         self.long = try decoder.decode(key: "longitude")
         self.hourData = (try? decoder.decode(key: "hourly.data")) ?? []
-//        self.currentData = (try? decoder.decode(key: "currently")) ?? []
-//        self.minuteData = (try? decoder.decode(key: "minutely.data")) ?? []
-//        self.dailyData = (try? decoder.decode(key: "daily.data")) ?? []
-//        self.alertData = (try? decoder.decode(key: "alerts")) ?? []
+        self.currentData = (try? decoder.decode(key: "currently")) ?? []
+        self.minuteData = (try? decoder.decode(key: "minutely.data")) ?? []
+        self.dailyData = (try? decoder.decode(key: "daily.data")) ?? []
+        self.alertData = (try? decoder.decode(key: "alerts")) ?? []
     }
 }
 

@@ -45,9 +45,9 @@ class RootViewController: UIViewController, UICollectionViewDataSource, UICollec
         setupView()
         
         // Fetch Weather Data
-        dataManager.weatherDataForLocation(latitude: Defaults.Latitude, longitude: Defaults.Longitude) { (response, error) in
-            print(response)
-        }
+        //dataManager.weatherDataForLocation(latitude: Defaults.Latitude, longitude: Defaults.Longitude) { (response, error) in
+        //    print(response)
+        //}
     }
     
     

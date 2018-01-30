@@ -9,94 +9,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Thundercloud/JSONDecodable.swift"
-            timestampString = "538941779.2472889"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "JSONDecoder"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static Thundercloud.JSONDecoder.decode&lt;A where A: Thundercloud.JSONDecodable&gt;(data: Foundation.Data) throws -&gt; A"
-                  moduleName = "Thundercloud"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/JSONDecodable.swift"
-                  timestampString = "538696771.667128"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "static Thundercloud.JSONDecoder.decode&lt;A where A: Thundercloud.JSONDecodable&gt;(data: Foundation.Data) throws -&gt; A"
-                  moduleName = "Thundercloud"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/JSONDecodable.swift"
-                  timestampString = "538696771.669392"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "366">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Thundercloud/Managers/DataManager.swift"
-            timestampString = "538941779.24764"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "processWeatherData(data:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Thundercloud/Managers/DataManager.swift"
-            timestampString = "538941779.247884"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "didFetchWeatherData(data:response:error:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Thundercloud/WeatherHourData.swift"
-            timestampString = "538941779.24795"
+            timestampString = "538973928.116631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "init(decoder:)"
-            landmarkType = "7">
+            endingLineNumber = "118">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,7 +24,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/JSONDecodable.swift"
-            timestampString = "538941779.248194"
+            timestampString = "538974582.002727"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -122,11 +40,107 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Thundercloud/WeatherHourData.swift"
-            timestampString = "538941779.248273"
+            timestampString = "538973928.116955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "init(time:summary:icon:sunriseTime:sunsetTime:moonPhase:nearestStormDistance:nearestStormBearing:precipIntensity:precipIntensityMax:precipIntensityMaxTime:precipProbability:precipType:precipAccumulation:temperature:temperatureMin:temperatureMinTime:temperatureMax:temperatureMaxTime:apparentTemperature:apparentTemperatureMin:apparentTemperatureMinTime:apparentTemperatureMax:apparentTemperatureMaxTime:dewPoint:windSpeed:windBearing:cloudCover:humidity:pressure:visibility:ozone:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Thundercloud.WeatherHourData.init(time: Swift.Optional&lt;Foundation.Date&gt;, summary: Swift.Optional&lt;Swift.String&gt;, icon: Swift.Optional&lt;Swift.String&gt;, sunriseTime: Swift.Optional&lt;Foundation.Date&gt;, sunsetTime: Swift.Optional&lt;Foundation.Date&gt;, moonPhase: Swift.Optional&lt;Swift.Double&gt;, nearestStormDistance: Swift.Optional&lt;Swift.Double&gt;, nearestStormBearing: Swift.Optional&lt;Swift.Double&gt;, precipIntensity: Swift.Optional&lt;Swift.Double&gt;, precipIntensityMax: Swift.Optional&lt;Swift.Double&gt;, precipIntensityMaxTime: Swift.Optional&lt;Foundation.Date&gt;, precipProbability: Swift.Optional&lt;Swift.Double&gt;, precipType: Swift.Optional&lt;Swift.String&gt;, precipAccumulation: Swift.Optional&lt;Swift.Double&gt;, temperature: Swift.Optional&lt;Swift.Double&gt;, temperatureMin: Swift.Optional&lt;Swift.Double&gt;, temperatureMinTime: Swift.Optional&lt;Foundation.Date&gt;, temperatureMax: Swift.Optional&lt;Swift.Double&gt;, temperatureMaxTime: Swift.Optional&lt;Foundation.Date&gt;, apparentTemperature: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMin: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMinTime: Swift.Optional&lt;Foundation.Date&gt;, apparentTemperatureMax: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMaxTime: Swift.Optional&lt;Foundation.Date&gt;, dewPoint: Swift.Optional&lt;Swift.Double&gt;, windSpeed: Swift.Optional&lt;Swift.Double&gt;, windBearing: Swift.Optional&lt;Swift.Double&gt;, cloudCover: Swift.Optional&lt;Swift.Double&gt;, humidity: Swift.Optional&lt;Swift.Double&gt;, pressure: Swift.Optional&lt;Swift.Double&gt;, visibility: Swift.Optional&lt;Swift.Double&gt;, ozone: Swift.Optional&lt;Swift.Double&gt;) -&gt; Thundercloud.WeatherHourData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherHourData.swift"
+                  timestampString = "538973758.433906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "5818">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #4 : @autoclosure () throws -&gt; Swift.Optional&lt;Foundation.Date&gt; in Thundercloud.WeatherHourData.init(time: Swift.Optional&lt;Foundation.Date&gt;, summary: Swift.Optional&lt;Swift.String&gt;, icon: Swift.Optional&lt;Swift.String&gt;, sunriseTime: Swift.Optional&lt;Foundation.Date&gt;, sunsetTime: Swift.Optional&lt;Foundation.Date&gt;, moonPhase: Swift.Optional&lt;Swift.Double&gt;, nearestStormDistance: Swift.Optional&lt;Swift.Double&gt;, nearestStormBearing: Swift.Optional&lt;Swift.Double&gt;, precipIntensity: Swift.Optional&lt;Swift.Double&gt;, precipIntensityMax: Swift.Optional&lt;Swift.Double&gt;, precipIntensityMaxTime: Swift.Optional&lt;Foundation.Date&gt;, precipProbability: Swift.Optional&lt;Swift.Double&gt;, precipType: Swift.Optional&lt;Swift.String&gt;, precipAccumulation: Swift.Optional&lt;Swift.Double&gt;, temperature: Swift.Optional&lt;Swift.Double&gt;, temperatureMin: Swift.Optional&lt;Swift.Double&gt;, temperatureMinTime: Swift.Optional&lt;Foundation.Date&gt;, temperatureMax: Swift.Optional&lt;Swift.Double&gt;, temperatureMaxTime: Swift.Optional&lt;Foundation.Date&gt;, apparentTemperature: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMin: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMinTime: Swift.Optional&lt;Foundation.Date&gt;, apparentTemperatureMax: Swift.Optional&lt;Swift.Double&gt;, apparentTemperatureMaxTime: Swift.Optional&lt;Foundation.Date&gt;, dewPoint: Swift.Optional&lt;Swift.Double&gt;, windSpeed: Swift.Optional&lt;Swift.Double&gt;, windBearing: Swift.Optional&lt;Swift.Double&gt;, cloudCover: Swift.Optional&lt;Swift.Double&gt;, humidity: Swift.Optional&lt;Swift.Double&gt;, pressure: Swift.Optional&lt;Swift.Double&gt;, visibility: Swift.Optional&lt;Swift.Double&gt;, ozone: Swift.Optional&lt;Swift.Double&gt;) -&gt; Thundercloud.WeatherHourData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherHourData.swift"
+                  timestampString = "538973758.436168"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thundercloud/WeatherData.swift"
+            timestampString = "538974582.00283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "init(decoder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
+                  timestampString = "538961676.739458"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "262">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Array&lt;Thundercloud.WeatherHourData&gt; in Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
+                  timestampString = "538961676.742433"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thundercloud/View Controllers/Week View Controller/WeatherDataDaily.swift"
+            timestampString = "538961676.709343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "init(decoder:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -134,49 +148,129 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Thundercloud/WeatherData.swift"
-            timestampString = "538941779.248336"
+            filePath = "Thundercloud/View Controllers/Week View Controller/WeekViewController.swift"
+            timestampString = "538976463.1334569"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Thundercloud.WeekViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/View%20Controllers/Week%20View%20Controller/WeekViewController.swift"
+                  timestampString = "538976020.817436"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "883">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.AnyObject&gt;, Swift.Optional&lt;Thundercloud.DataManagerError&gt;) -&gt; () in Thundercloud.WeekViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Thundercloud"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/View%20Controllers/Week%20View%20Controller/WeekViewController.swift"
+                  timestampString = "538976020.820063"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thundercloud/View Controllers/Week View Controller/DailyData.swift"
+            timestampString = "538974582.003513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "init(decoder:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  symbolName = "Thundercloud.DailyData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.DailyData"
                   moduleName = "Thundercloud"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
-                  timestampString = "538941779.254724"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/View%20Controllers/Week%20View%20Controller/DailyData.swift"
+                  timestampString = "538976020.8263071"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "1475">
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "262">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "implicit closure #4 : @autoclosure () throws -&gt; Swift.Array&lt;Thundercloud.WeatherHourData&gt; in Thundercloud.WeatherData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.WeatherData"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Array&lt;Thundercloud.WeatherDailyData&gt; in Thundercloud.DailyData.init(decoder: Thundercloud.JSONDecoder) throws -&gt; Thundercloud.DailyData"
                   moduleName = "Thundercloud"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/WeatherData.swift"
-                  timestampString = "538941779.2571909"
+                  urlString = "file:///Users/skriss/SwiftProjects/Thundercloud/Thundercloud/View%20Controllers/Week%20View%20Controller/DailyData.swift"
+                  timestampString = "538976020.8290401"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
                   offsetFromSymbolStart = "64">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thundercloud/WeatherData.swift"
+            timestampString = "538974582.003912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(lat:long:hourData:currentData:minuteData:dailyData:alertData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Thundercloud/View Controllers/Week View Controller/WeatherDailyData.swift"
+            timestampString = "538976463.134117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "init(decoder:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
